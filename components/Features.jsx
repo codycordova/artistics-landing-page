@@ -1,18 +1,16 @@
 import React, { useEffect } from 'react';
-import ft1 from '../assets/1st.gif'
-import ft2 from '../assets/2nd.gif'
-import ft3 from '../assets/3rd.gif'
-import ft4 from '../assets/4th.gif'
-import Image from 'next/image'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import ft1 from '../assets/1st.gif';
+import ft2 from '../assets/2nd.gif';
+import ft3 from '../assets/3rd.gif';
+import ft4 from '../assets/4th.gif';
+import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Features = () => {
-
   useEffect(() => {
-    AOS.init({duration: 2400})
+    AOS.init({ duration: 2400 });
   }, []);
-
 
   return (
     
@@ -58,4 +56,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Features;

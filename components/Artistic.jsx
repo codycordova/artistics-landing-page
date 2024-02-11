@@ -1,15 +1,13 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image'
-import artistic from '../assets/artistics.svg'
-import AOS from 'aos'
-import 'aos/dist/aos.css' 
+import Image from 'next/image';
+import artistic from '../assets/artistics.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Artistic = () => {
-
   useEffect(() => {
-    AOS.init({duration: 1000})
+    AOS.init({ duration: 1000 });
   }, []);
-
 
   return (
     
@@ -25,4 +23,4 @@ const Artistic = () => {
   )
 }
 
-export default Artistic
+export default Artistic;

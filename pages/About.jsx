@@ -1,15 +1,14 @@
-import Image from 'next/image'
-import logo from '../assets/about-title.svg'
-import panda from '../assets/panda.gif'
-import Link from 'next/link'
-import AOS from 'aos'
-import 'aos/dist/aos.css' 
-import { useEffect } from 'react'
+import Image from 'next/image';
+import logo from '../assets/about-title.svg';
+import panda from '../assets/panda.gif';
+import Link from 'next/link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const About = () => {
-
   useEffect(() => {
-    AOS.init({duration: 3000})
+    AOS.init({ duration: 3000 });
   }, []);
 
   return (
@@ -34,4 +33,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

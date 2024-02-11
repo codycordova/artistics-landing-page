@@ -1,10 +1,10 @@
-import React from 'react'
-import Image from 'next/image'
-import retro from '../assets/footer.svg'
-import tech1 from '../assets/nextjs.png'
-import tech2 from '../assets/react.png'
-import tech3 from '../assets/tailwind.png'
-import tech4 from '../assets/sass.png'
+import React from 'react';
+import Image from 'next/image';
+import retro from '../assets/footer.svg';
+import tech1 from '../assets/nextjs.png';
+import tech2 from '../assets/react.png';
+import tech3 from '../assets/tailwind.png';
+import tech4 from '../assets/sass.png';
 
 const Footer = () => {
   return (
@@ -29,4 +29,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

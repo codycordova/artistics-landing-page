@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image'
-import header from '../assets/header-title.svg'
-import navi from '../assets/butterfly.gif'
-import AOS from 'aos'
-import 'aos/dist/aos.css' 
+import Image from 'next/image';
+import header from '../assets/header-title.svg';
+import navi from '../assets/butterfly.gif';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
-
   useEffect(() => {
-    AOS.init({duration: 1000})
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -25,4 +24,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
