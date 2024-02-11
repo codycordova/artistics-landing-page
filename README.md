@@ -1,5 +1,10 @@
+Shout out to @decimozs for creating this beautiful frontend project!
+https://github.com/decimozs
+
+I just added my own pictures (with alt text)
+
 ## Website Link
-https://v3-project-artistics-landing-page.vercel.app/
+https://puraumi.com
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
